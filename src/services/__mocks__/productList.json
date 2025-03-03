@@ -1,0 +1,191 @@
+[
+  {
+    "title": "Flutter",
+    "description": "Cross-platform mobile framework from Google",
+    "image": "https://frontend-test-api.digitalcreative.cn/flutter.png",
+    "url": "https://flutter.dev/",
+    "category": "Languages & Frameworks"
+  },
+  {
+    "title": "Vue",
+    "description": "The Progressive JavaScript Framework",
+    "image": "https://frontend-test-api.digitalcreative.cn/vue.png",
+    "url": "https://vuejs.org/",
+    "category": "Languages & Frameworks"
+  },
+  {
+    "title": "React",
+    "description": "A JavaScript library for building user interfaces",
+    "image": "https://frontend-test-api.digitalcreative.cn/react.png",
+    "url": "https://reactjs.org/",
+    "category": "Languages & Frameworks"
+  },
+  {
+    "title": "Next.js",
+    "description": "The React Framework for Production",
+    "image": "https://frontend-test-api.digitalcreative.cn/nextjs.jpg",
+    "url": "https://nextjs.org/",
+    "category": "Languages & Frameworks"
+  },
+  {
+    "title": "three.js",
+    "description": "A JavaScript 3D library.",
+    "image": "https://frontend-test-api.digitalcreative.cn/threejs.png",
+    "url": "https://threejs.org/",
+    "category": "Languages & Frameworks"
+  },
+  {
+    "title": "Node.js",
+    "description": "A platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications.",
+    "image": "https://frontend-test-api.digitalcreative.cn/nodejs.png",
+    "url": "https://nodejs.org/",
+    "category": "Languages & Frameworks"
+  },
+  {
+    "title": "ES6",
+    "description": "Goals for ECMAScript 2015 include providing better support for large applications, library creation, and for use of ECMAScript as a compilation target for other languages.",
+    "image": "https://frontend-test-api.digitalcreative.cn/es6.png",
+    "url": "https://www.ecma-international.org/ecma-262/6.0/",
+    "category": "Languages & Frameworks"
+  },
+  {
+    "title": "Tailwind CSS",
+    "description": "A utility-first CSS framework for rapid UI development.",
+    "image": "https://frontend-test-api.digitalcreative.cn/tailwind.png",
+    "url": "https://tailwindcss.com/",
+    "category": "Languages & Frameworks"
+  },
+  {
+    "title": "Laravel",
+    "description": "A PHP Framework For Web Artisans.",
+    "image": "https://frontend-test-api.digitalcreative.cn/laravel.png",
+    "url": "https://laravel.com/",
+    "category": "Languages & Frameworks"
+  },
+  {
+    "title": "PHP",
+    "description": "A popular general-purpose scripting language that is especially suited to web development.",
+    "image": "https://frontend-test-api.digitalcreative.cn/php.png",
+    "url": "https://www.php.net/",
+    "category": "Languages & Frameworks"
+  },
+  {
+    "title": "Sass",
+    "description": "Syntactically Awesome Style Sheets.",
+    "image": "https://frontend-test-api.digitalcreative.cn/sass.png",
+    "url": "https://sass-lang.com/",
+    "category": "Languages & Frameworks"
+  },
+  {
+    "title": "PostCSS",
+    "description": "Transform CSS with JS plugins.",
+    "image": "https://frontend-test-api.digitalcreative.cn/post-css.png",
+    "url": "https://postcss.org/",
+    "category": "Languages & Frameworks"
+  },
+  {
+    "title": "Dart",
+    "description": "A new web programming language with libraries, a virtual machine, and tools.",
+    "image": "https://frontend-test-api.digitalcreative.cn/dart.png",
+    "url": "https://www.dartlang.org/",
+    "category": "Languages & Frameworks"
+  },
+  {
+    "title": "Drone",
+    "description": "Open source continuous integration platform built on Docker.",
+    "image": "https://frontend-test-api.digitalcreative.cn/drone.png",
+    "url": "https://drone.io/",
+    "category": "Build, Test, Deploy"
+  },
+  {
+    "title": "GraphQL",
+    "description": "A data query language and runtime.",
+    "image": "https://frontend-test-api.digitalcreative.cn/graphql.png",
+    "url": "https://graphql.org/",
+    "category": "Languages & Frameworks"
+  },
+  {
+    "title": "Prettier",
+    "description": "Prettier is an opinionated code formatter.",
+    "image": "https://frontend-test-api.digitalcreative.cn/prettier.png",
+    "url": "https://prettier.io/",
+    "category": "Build, Test, Deploy"
+  },
+  {
+    "title": "Docker",
+    "description": "Enterprise Container Platform for High-Velocity Innovation.",
+    "image": "https://frontend-test-api.digitalcreative.cn/docker.png",
+    "url": "https://www.docker.com/",
+    "category": "Build, Test, Deploy"
+  },
+  {
+    "title": "Docker Swarm",
+    "description": "Native clustering for Docker. Turn a pool of Docker hosts into a single, virtual host.",
+    "image": "https://frontend-test-api.digitalcreative.cn/docker-swarm.png",
+    "url": "https://github.com/docker/swarm",
+    "category": "Build, Test, Deploy"
+  },
+  {
+    "title": "Traefik",
+    "description": "The Cloud Native Edge Router.",
+    "image": "https://frontend-test-api.digitalcreative.cn/traefik.png",
+    "url": "https://github.com/docker/swarm",
+    "category": "Build, Test, Deploy"
+  },
+  {
+    "title": "PhpStorm",
+    "description": "Professional IDE for PHP and Web Developers.",
+    "image": "https://frontend-test-api.digitalcreative.cn/phpstorm.png",
+    "url": "https://www.jetbrains.com/phpstorm/",
+    "category": "Build, Test, Deploy"
+  },
+  {
+    "title": "Visual Studio Code",
+    "description": "Build and debug modern web and cloud applications, by Microsoft.",
+    "image": "https://frontend-test-api.digitalcreative.cn/vscode.png",
+    "url": "https://code.visualstudio.com/",
+    "category": "Build, Test, Deploy"
+  },
+  {
+    "title": "GitHub",
+    "description": "Powerful collaboration, review, and code management for open source and private development projects.",
+    "image": "https://frontend-test-api.digitalcreative.cn/github.png",
+    "url": "https://github.com/",
+    "category": "Build, Test, Deploy"
+  },
+  {
+    "title": "TypeScript",
+    "description": "A superset of JavaScript that compiles to clean JavaScript output.",
+    "image": "https://frontend-test-api.digitalcreative.cn/typescript.png",
+    "url": "https://www.typescriptlang.org/",
+    "category": "Build, Test, Deploy"
+  },
+  {
+    "title": "Asana",
+    "description": "Enabling the teams to work together effortlessly.",
+    "image": "https://frontend-test-api.digitalcreative.cn/asana.png",
+    "url": "https://asana.com/",
+    "category": "Business Tools"
+  },
+  {
+    "title": "Figma",
+    "description": "The collaborative interface design tool.",
+    "image": "https://frontend-test-api.digitalcreative.cn/figma.png",
+    "url": "https://www.figma.com/",
+    "category": "Design"
+  },
+  {
+    "title": "Aliyun",
+    "description": "Scalable platforms for cloud computing & data management.",
+    "image": "https://frontend-test-api.digitalcreative.cn/aliyun.png",
+    "url": "https://www.alibabacloud.com/",
+    "category": "Cloud Hosting"
+  },
+  {
+    "title": "Google Cloud Platform",
+    "description": "A suite of cloud computing services.",
+    "image": "https://frontend-test-api.digitalcreative.cn/google-cloud.png",
+    "url": "https://cloud.google.com/",
+    "category": "Cloud Hosting"
+  }
+]
