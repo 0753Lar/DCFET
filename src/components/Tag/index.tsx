@@ -5,14 +5,16 @@ import { HTMLAttributes } from 'react';
 interface TagProps {
   name?: string;
   selected?: boolean;
+  focused?: boolean;
 }
 export default function Tag({
   name,
+  focused,
   selected,
   ...rest
 }: TagProps & HTMLAttributes<HTMLDivElement>) {
   return (
-    <TagContainer $highlight={selected} {...rest}>
+    <TagContainer $highlight={selected} $focus={focused} {...rest}>
       <TagWrapper>
         <LuTag />
       </TagWrapper>

@@ -11,19 +11,16 @@ export const IconWrapper = styled.div`
   opacity: 0;
 `;
 
-export const ResultItemContainer = styled.div`
+export const ResultItemContainer = styled.div<{ $select?: boolean }>`
   display: flex;
   align-items: center;
   gap: 20px;
   padding: 12px 20px;
-  background-color: #fff;
+  background-color: ${(p) => (p.$select ? '#f2f4f8' : '#fff')};
   border-radius: 12px;
   cursor: pointer;
-  &:hover {
-    background-color: #f2f4f8;
-    ${IconWrapper} {
-      opacity: 0.2;
-    }
+  ${IconWrapper} {
+    opacity: ${(p) => (p.$select ? 0.2 : 1)};
   }
 `;
 

@@ -12,16 +12,19 @@ import {
 
 import { ImArrowUpRight } from 'react-icons/im';
 
-type ResultItemProps = Omit<Product, 'url' | 'category'>;
+type ResultItemProps = Omit<Product, 'url' | 'category'> & {
+  selected?: boolean;
+};
 
 export default function ResultItem({
   title,
   description,
   image,
+  selected,
   ...rest
 }: ResultItemProps & HTMLAttributes<HTMLDivElement>) {
   return (
-    <ResultItemContainer {...rest}>
+    <ResultItemContainer $select={selected} {...rest}>
       <ImageWrapper>
         <StyledImg src={image} alt={title} />
       </ImageWrapper>
