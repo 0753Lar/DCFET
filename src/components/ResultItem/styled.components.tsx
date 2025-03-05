@@ -20,7 +20,7 @@ export const ResultItemContainer = styled.div<{ $select?: boolean }>`
   border-radius: 12px;
   cursor: pointer;
   ${IconWrapper} {
-    opacity: ${(p) => (p.$select ? 0.2 : 1)};
+    opacity: ${(p) => (p.$select ? 0.2 : 0)};
   }
 `;
 

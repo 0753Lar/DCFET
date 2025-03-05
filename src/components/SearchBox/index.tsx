@@ -68,7 +68,7 @@ export default function SearchBox() {
             setHotkeyFocusOn(
               eligibleHotkeyTargets[
                 Math.min(
-                  eligibleHotkeyTargets.length - 1,
+                  tags.length - 1,
                   eligibleHotkeyTargets.indexOf(hotkeyFocusOn) + 1,
                 )
               ],
@@ -111,6 +111,9 @@ export default function SearchBox() {
   };
 
   const onBoardHotkeyOverUp = useCallback(() => {
+    if (!eligibleHotkeyTargets.includes(hotkeyFocusOn)) {
+      setHotkeyFocusOn(eligibleHotkeyTargets[0]);
+    }
     setIsBoardFocusing(false);
   }, []);
 
